@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Family Cookbook",
+    "slug": "family-cookbook",
+    "version": "0.1.0",
+    "scheme": "familycookbook-dev",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
