@@ -39,4 +39,4 @@ The migration defines the full initial table inventory, indexes, timestamps, pri
 4. Realtime, durable notification inbox, push and comments.
 5. AI import review and atomic quotas, RevenueCat, privacy/export/deletion, real-device accessibility tests and release builds.
 
-GitHub upload needs a destination repository. Neither account creation, remote publication nor a store release is completed by this starter.
+Source is uploaded to https://github.com/williamlundb/cookbook-app. No service accounts, remote database deployment or store release have been created by this starter.

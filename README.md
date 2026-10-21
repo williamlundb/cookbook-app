@@ -56,4 +56,4 @@ These are development checks. Physical iOS/Android behavior, screen-reader behav
 
 ## Next
 
-See docs/DECISIONS.md for reconciled document mistakes, open product questions and milestones. Next: phone review, then Supabase auth plus tested role policies. A GitHub repository URL is needed for upload; source is currently local.
+See docs/DECISIONS.md for reconciled document mistakes, open product questions and milestones. Next: phone review, then Supabase auth plus tested role policies. Source repository: https://github.com/williamlundb/cookbook-app.
