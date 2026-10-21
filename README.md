@@ -12,7 +12,7 @@ From this folder on this Windows computer:
 
 The helper uses installed Node/pnpm or the Codex bundled runtime. It installs dependencies if missing and displays Expo's terminal QR code. Keep the terminal running. On a compatible Expo Go installation, scan it with your phone on the same network (Camera on iOS, Expo Go on Android).
 
-This starter uses Expo SDK 58, the current stable template retrieved from npm on 21 October 2026. During SDK transitions, the store's Expo Go may lag behind. If it reports an incompatible SDK, use an SDK 58 development build or compatible Expo Go version. Do not silently downgrade the project. A development build requires Expo account/project configuration and device setup that have not been performed.
+This starter uses Expo SDK 57, which Expo Go in the stores supports during the SDK 58 rollout. Expo announced Expo Go for SDK 58 is still rolling out. Expo's documentation currently gives conflicting iOS install advice: its September 3 changelog says the App Store build supports SDK 57, while its version-mismatch troubleshooting page says physical iPhones on SDK 54 and later need Expo Go built with EAS and installed through TestFlight. If the same mismatch persists on iPhone, Expo's supported path is an EAS Go build distributed through TestFlight; on Android use Expo Go for SDK 57. Android and iPhone cannot install each other's Expo Go builds.
 
 On a normal Node 24+ setup with pnpm 11 installed:
 
