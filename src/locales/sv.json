@@ -1,7 +1,7 @@
 {
   "appName": "Familjens kokbok", "myBook": "Min kokbok", "following": "Följer", "notifications": "Händelser", "profile": "Profil",
   "tagline": "Maten vi älskar. Människorna vi älskar.", "bookName": "Familjens kök", "bookDescription": "En liten samling recept att dela runt bordet.",
-  "demo": "Förhandsvisning · exempelrecept", "demoNotice": "Det här är en demo. Ändringar finns kvar tills du startar om appen. Konton och delning är inte anslutna ännu.",
+  "demo": "En smak av hemma", "demoNotice": "Förhandsvisning · Ändringar återställs när appen stängs. Familjedelning kommer snart.", "featured": "En familjefavorit", "openArrow": "Visa recept  ›", "recipesHeading": "Från vårt kök", "searchHint": "Sök efter maträtt eller ingrediens", "clearSearch": "Rensa filter",
   "recipes": "{{count}} recept", "search": "Sök recept eller ingredienser", "all": "Alla", "add": "Lägg till recept", "noResults": "Inga recept hittades", "trySearch": "Prova en annan ingrediens eller kategori.",
   "categories": { "baking": "Bakning", "breakfast": "Frukost", "dinner": "Middag", "soups": "Soppor", "sides": "Tillbehör", "desserts": "Efterrätter", "drinks": "Drycker", "holidays": "Högtider", "other": "Övrigt" },
   "title": "Receptets namn", "ingredients": "Ingredienser", "steps": "Gör så här", "tips": "Tips och minnen", "servings": "Portioner", "prepMinutes": "Förberedelse (minuter)", "cookMinutes": "Tillagning (minuter)", "category": "Kategori",

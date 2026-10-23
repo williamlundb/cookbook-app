@@ -1,7 +1,7 @@
 {
   "appName": "Family Cookbook", "myBook": "My cookbook", "following": "Following", "notifications": "Notifications", "profile": "Profile",
   "tagline": "The food we love. The people we love.", "bookName": "Our family kitchen", "bookDescription": "A little collection of recipes to pass around the table.",
-  "demo": "Preview · sample recipes", "demoNotice": "This is a demo. Changes last until you restart the app. No accounts or online sharing are connected yet.",
+  "demo": "A little taste of home", "demoNotice": "Preview mode · Changes reset when you close the app. Family sharing is coming soon.", "featured": "A family favourite", "openArrow": "View recipe  ›", "recipesHeading": "From our kitchen", "searchHint": "Try a dish or ingredient", "clearSearch": "Clear filters",
   "recipes": "{{count}} recipes", "search": "Search recipes or ingredients", "all": "All", "add": "Add recipe", "noResults": "No recipes found", "trySearch": "Try another ingredient or category.",
   "categories": { "baking": "Baking", "breakfast": "Breakfast", "dinner": "Dinner", "soups": "Soups", "sides": "Sides", "desserts": "Desserts", "drinks": "Drinks", "holidays": "Holidays", "other": "Other" },
   "title": "Recipe name", "ingredients": "Ingredients", "steps": "Method", "tips": "Tips & memories", "servings": "Servings", "prepMinutes": "Preparation (minutes)", "cookMinutes": "Cooking (minutes)", "category": "Category",
