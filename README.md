@@ -4,13 +4,13 @@ An initial native iOS/Android demo based on the supplied concept and build plan.
 
 ## Try it
 
-From this folder on this Windows computer:
+From any PowerShell or Command Prompt window on this Windows computer:
 
-```powershell
-.\Start-App.ps1
+```bat
+"C:\Users\willi\Documents\Codex\2026-10-21\i-have-a-plan-to-create\outputs\family-cookbook\Start-App.cmd"
 ```
 
-The helper uses installed Node/pnpm or the Codex bundled runtime. It installs dependencies if missing and displays Expo's terminal QR code. Keep the terminal running. On a compatible Expo Go installation, scan it with your phone on the same network (Camera on iOS, Expo Go on Android).
+The command helper uses installed Node/pnpm or the Codex bundled runtime. It starts PowerShell with a temporary, process-only execution-policy bypass for the local launcher, without changing your saved system policy. It installs dependencies if missing and displays Expo's terminal QR code. Keep the terminal running. On a compatible Expo Go installation, scan it with your phone on the same network (Camera on iOS, Expo Go on Android).
 
 This starter uses Expo SDK 57, which Expo Go in the stores supports during the SDK 58 rollout. Expo announced Expo Go for SDK 58 is still rolling out. Expo's documentation currently gives conflicting iOS install advice: its September 3 changelog says the App Store build supports SDK 57, while its version-mismatch troubleshooting page says physical iPhones on SDK 54 and later need Expo Go built with EAS and installed through TestFlight. If the same mismatch persists on iPhone, Expo's supported path is an EAS Go build distributed through TestFlight; on Android use Expo Go for SDK 57. Android and iPhone cannot install each other's Expo Go builds.
 
