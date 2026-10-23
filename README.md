@@ -30,6 +30,7 @@ pnpm start
 - Recipe details with ingredients, times, method and tips.
 - Large-text cooking mode with next/previous steps and screen kept awake.
 - Unsaved-edit confirmation, accessibility labels and large buttons.
+- Profile/settings screen and sign-in preview with Apple, Google and passwordless email-link choices. Authentication is a visual prototype only; no accounts or sign-in links are created yet.
 
 Demo changes and language preference reset when the app restarts. Recipes are sample user content and remain Swedish when the UI language changes. Temporary in-memory editing is for review; production offline creation is not in scope.
 

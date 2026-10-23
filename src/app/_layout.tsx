@@ -6,5 +6,5 @@ import { CookbookProvider } from '../state';
 import { colors } from '../ui';
 
 export default function RootLayout() {
-  return <SafeAreaProvider><CookbookProvider><StatusBar style="dark" /><Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.paper } }}><Stack.Screen name="(tabs)" /><Stack.Screen name="editor" options={{ presentation: 'modal', gestureEnabled: false }} /></Stack></CookbookProvider></SafeAreaProvider>;
+  return <SafeAreaProvider><CookbookProvider><StatusBar style="dark" /><Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.paper } }}><Stack.Screen name="(tabs)" /><Stack.Screen name="editor" options={{ presentation: 'modal', gestureEnabled: false }} /><Stack.Screen name="auth" options={{ presentation: 'modal' }} /></Stack></CookbookProvider></SafeAreaProvider>;
 }
